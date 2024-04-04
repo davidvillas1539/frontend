@@ -19,7 +19,7 @@ const UserOps = () => {
 
   return (
     <>
-      <PageTitle title="User operations" withTextAd/>
+      <PageTitle title="User operations" withTextAd={ false }/>
       <UserOpsContent query={ query }/>
     </>
   );
