@@ -32,7 +32,7 @@ const SettingsColorTheme = () => {
 
     const nextColorMode = (() => {
       if (!cookieColorMode) {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        return 'light';
       }
 
       return cookieColorMode;
